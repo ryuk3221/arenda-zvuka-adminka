@@ -248,7 +248,7 @@ a {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 7px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   cursor: pointer;
   border: 1px solid #1f1f23;
   font-size: 16px;
@@ -265,4 +265,292 @@ a {
 
 .btn-delete:hover {
   background-color: red !important;
+}
+
+.page-tabcontent {
+  display: none;
+}
+
+.page-tabcontent--active {
+  display: block;
+}
+
+.page-tabs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  background-color: transparent;
+  padding: 4px 0 7px;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  color-interpolation-filters: #000;
+}
+
+.tab-btn--active {
+  border-color: #bf94ff;
+}
+
+.tabcontent-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.tabcontent-empty {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.tabcontent-link {
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+}
+
+select {
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+option {
+  padding: 3px 0;
+  cursor: pointer;
+}
+
+.tabcontent__cats-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.tabcontent__cats-links a {
+
+}
+
+.add-tovar-link {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid #bf94ff;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.page-inner__title1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+.cards-controls {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.filter {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 2px solid #bf94ff;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sort {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 2px solid #bf94ff;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search {
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+.search-input-box {
+  height: 42px;
+  border-radius: 4px;
+  border: 2px solid #bf94ff;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.search-input-box  input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-input-box svg {
+  
+}
+
+
+.cards-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-item {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.05), 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  margin-right: 40px;
+}
+
+.card-item__img {
+  max-width: 270px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+.card-item__img  img {
+  width: 100%;
+}
+
+.card-item__name {
+  max-width: 400px;
+  flex-grow: 1;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-right: auto;
+}
+
+.card-item-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 40px 40px;
+  margin-top: 50px;
+}
+
+.card-item__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgb(66, 204, 247);
+  color: #fff;
+  font-weight: 600;
+  transition: .2s;
+}
+
+.card-item__btn-edit {
+  background-color: green;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.card-item__btn-edit:hover {
+  background-color: rgb(66, 204, 61);
+}
+
+.card-item__link:hover {
+  background-color: rgb(4, 161, 209);
+}
+
+.card-item__delete-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgb(218, 66, 66);
+  color: #fff;
+  font-weight: 600;
+  transition: .2s;
+}
+
+.card-item__delete-link:hover {
+  background-color: rgb(156, 24, 24);
+}
+
+.select {
+  position: relative;
+}
+
+.select-head {
+  width: 300px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.05), 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+
+.select-drop {
+  padding: 10px 0 0;
+  background-color: #fff;
+  box-shadow: -1px 18px 20px 3px rgba(0,0,0,0.28);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  display: none;
+}
+
+.select-search {
+  font-size: 14px;
+  padding: 5px;
+  outline: none;
+  display: inline-block;
+  margin: 0 10px 5px;
+}
+
+.select-drop__item {
+  font-size: 16px;
+  padding: 7px 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.select-drop__item:hover {
+  background-color: #bf94ff;
+  color: #fff;
+}
+
+.select-drop__items-container {
+  height: 180px;
+  overflow-y: auto;
+}
+
+.select--open .select-drop {
+  display: block;
 }

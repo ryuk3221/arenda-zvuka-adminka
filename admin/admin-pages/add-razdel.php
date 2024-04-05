@@ -1,10 +1,5 @@
 <?php 
-session_start();
 
-//Если пользователь не авторизован перенаправляю на страничку авторизации
-if ($_SESSION["isAuth"] == false && empty($_SESSION["isAuth"])) {
-  header('Location:../index.php');
-}
 
 require "head.php";
 require "sidebar.php"
